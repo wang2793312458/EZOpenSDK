@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources> 
+    <declare-styleable name="LoadingTextView">
+        <attr name="textStyle">
+            <enum name="noText" value="-1" />
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="gravity" format="integer" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textPadding" format="dimension" />
+        <attr name="android:text" />
+    </declare-styleable>
+    <declare-styleable name="TitleBar">
+        <attr name="textColor" />
+        <attr name="background" format="reference" />
+        <attr name="backButton" format="reference" />
+    </declare-styleable>
+  <declare-styleable name="PullToRefresh"> 
+    <attr name="ptrRefreshableViewBackground" format="reference|color"/>  
+    <attr name="ptrOverScroll" format="reference|boolean"/>  
+    <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean"/>  
+    <attr name="ptrListViewExtrasEnabled" format="reference|boolean"/> 
+  </declare-styleable> 
+    <declare-styleable name="GroupLayout">
+        <attr name="dividerPadding" format="dimension" />
+        <attr name="dividerHeight" format="dimension" />
+        <attr name="dividerColor" format="color" />
+        <attr name="itemSelector" format="reference" />
+    </declare-styleable>
+
+</resources>
